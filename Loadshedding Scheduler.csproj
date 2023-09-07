@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Loadshedding_Scheduler</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Microsoft-Fluentui-Emoji-Flat-Electric-Plug-Flat.ico</ApplicationIcon>
+    <PackageIcon>Microsoft-Fluentui-Emoji-Flat-Electric-Plug-Flat.512.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Microsoft-Fluentui-Emoji-Flat-Electric-Plug-Flat.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Ripkk\Downloads\Microsoft-Fluentui-Emoji-Flat-Electric-Plug-Flat.512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
